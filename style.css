@@ -1,0 +1,113 @@
+@font-face {
+  font-family: myFont;
+  src: url(data/ekselldisplaytrial-small.otf);
+}
+.img-responsive{
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+.content{
+  padding: 120px;
+  text-align: left;
+  font-size: 33px;
+  font-family: sans-serif;
+  line-height: 1.4;
+}
+.main-text{
+  display: flex;
+  align-items: center;
+  z-index:1 ;
+  position: absolute;
+  width: 60%;
+  margin: auto;
+}
+.no-padd{
+  position: relative;
+  display:flex;
+  align-items: center;
+}
+.rotate-img{
+ 
+  height: 30vw;
+ 
+  }
+  .rotate-img img{
+    height: 100%;
+  }
+
+.main-text h1{
+  margin: auto;
+  font-size: 80px;
+  font-family: myFont;
+}
+.footer_row{
+  padding: 50px;
+  font-size: 14px;
+  font-family: sans-serif;
+}
+.footer_center a{
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+  padding-bottom: 15px;
+  line-height: 30px;
+}
+.footer_right a{
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+  padding-bottom: 10px;
+}
+ul .dropdown-menu{
+  border-radius: 0px;
+  margin-top: 9px;
+  background-color:#e53f27;
+  padding: 0px;
+}
+.dropdown-menu a {
+  color: white;
+}
+.dropdown-menu a:hover{
+  background-color: #e53f27;
+  color: black;
+  transition: opacity 1s;
+  font-weight: 500;
+}
+.nav-item a {
+  color: white;
+  padding: 10px 12px;
+}
+.nav-item a :hover{
+  color: #e53f27;
+}
+@media screen and (max-width : 1300px){
+
+  .yellow{
+    padding-top: 47px;
+  }
+  
+}
+/* when screen size below 767 px the media queiry effects will work */
+@media screen and (max-width : 767px){
+  .main-text h1{
+    font-size: 40px;
+  }
+  .leaf-img{
+    width: 100px;
+  }
+  .content{
+    padding: 100px 30px;
+    font-size: 24px;
+  }
+  .yellow{
+    padding-top: 47px;
+  }
+  
+}
+@media screen and (max-width : 1024px){
+  .nav-item a {
+    font-size: 14px;
+  }
+  
+}
